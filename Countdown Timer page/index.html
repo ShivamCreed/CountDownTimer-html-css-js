@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Countdown Timer</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Countdown Timer</h1>
+    <div class="input-container">
+      <label for="date">Date:</label>
+      <input type="date" id="date">
+    </div>
+    <div class="input-container">
+      <label for="time">Time:</label>
+      <input type="time" id="time">
+    </div>
+    <button onclick="startCountdown()">Start Countdown</button>
+    <div id="countdown"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

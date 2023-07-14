@@ -1,0 +1,66 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  color: #333333;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  font-size: 18px;
+  color: #333333;
+  margin-right: 10px;
+}
+
+input[type="date"],
+input[type="time"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  background-color: #ffffff;
+}
+
+button {
+  background-color: #ff5e3a;
+  color: white;
+  padding: 12px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff3c1f;
+}
+
+#countdown {
+  font-size: 48px;
+  color: #333333;
+  margin-top: 40px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
